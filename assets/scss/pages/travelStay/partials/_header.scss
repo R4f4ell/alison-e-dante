@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100px;
+
+    a{
+        &:nth-child(2){
+            border-bottom: 1px solid black;
+        }
+    }
+}

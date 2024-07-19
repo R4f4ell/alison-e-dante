@@ -1,7 +1,31 @@
-/* @font-face {
-    font-family: ;
-    src: url();
-} */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 100px;
+}
+header a:nth-child(1) {
+  border-bottom: 1px solid black;
+}
+
+.imgFundo {
+  width: 100vw;
+  height: 100vh;
+  background-image: url();
+  background-size: cover;
+  background-position: center center;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+a:hover {
+  border-bottom: 1px solid black;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,4 +33,9 @@
   box-sizing: border-box;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;AAAA;AAAA;AAAA;ACAA;EACI;EACA;EACA;EACA%22,%22file%22:%22home.css%22%7D */
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/index/partials/_header.scss%22,%22../../../scss/pages/index/partials/_imgFundo.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;EACA;;AAGI;EACI;;;ACTZ;EACI;EACA;EACA;EACA;EACA;;;ACHJ;EACI;EACA,OCJc;EDKd;;AAEA;EACI;;;AERR;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22home.css%22%7D */
