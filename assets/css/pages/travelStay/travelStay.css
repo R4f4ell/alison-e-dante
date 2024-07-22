@@ -11,11 +11,35 @@ header a:nth-child(2) {
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   font-size: 20px;
 }
 a:hover {
+  color: #000000;
   border-bottom: 1px solid black;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.862745098);
+}
+
+.centro {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 70px;
+}
+.centro p {
+  font-size: 20px;
 }
 
 * {
@@ -30,4 +54,4 @@ a:hover {
     src: url();
 } */
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/travelStay/partials/_header.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;EACA;;AAGI;EACI;;;ACPZ;EACI;EACA,OCJc;EDKd;;AAEA;EACI;;;AERR;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22travelStay.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/travelStay/partials/_header.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;EACA;;AAGI;EACI;;;ACPZ;EACI;EACA,OCFe;EDGf;;AAEA;EACI,OCRU;EDSV;;;AAIR;EACI;EACA;EACA;EACA,kBCNQ;EDOR,OChBe;;ADkBf;EACI;EACA,kBCVU;;;ADclB;EACQ;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AElCZ;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22travelStay.css%22%7D */

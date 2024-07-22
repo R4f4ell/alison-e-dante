@@ -1,13 +1,20 @@
+@use "../../../global/variables";
+
 header{
+    background-color: variables.$cor-header;
     position: sticky;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    height: 100px;
+    gap: 40px;
+    height: 80px;
 
     a{
+        font-size: 16px;
+        
         &:nth-child(1){
+            color: variables.$cor-preta-texto;
             border-bottom: 1px solid black;
         }
     }

@@ -1,22 +1,162 @@
 header {
+  background-color: #000000;
   position: sticky;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  height: 100px;
+  gap: 40px;
+  height: 80px;
+}
+header a {
+  font-size: 16px;
 }
 header a:nth-child(1) {
+  color: #000000;
   border-bottom: 1px solid black;
+}
+
+.imgFundo {
+  background-image: url(/assets/images/pages/index/imgAlisonEDante.webp);
+  background-size: cover;
+}
+
+.sectionUm {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionUm .conteudo {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+.sectionUm .conteudo h1 {
+  font-weight: 300;
+  font-size: 80px;
+}
+.sectionUm .conteudo p {
+  font-size: 20px;
+}
+
+.sectionDoisESeis {
+  width: 100%;
+  height: 100vh;
+  background-color: #C6CAD6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionDoisESeis .centro p {
+  color: rgba(0, 0, 0, 0.8);
+}
+.sectionDoisESeis .centro h2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.sectionTres {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/images/pages/index/imgCelebrate.webp);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionTres .centro h2 {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 70px;
+}
+.sectionTres .centro p {
+  color: #ffffff;
+}
+
+.sectionQuatro {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sectionQuatro .tamanho {
+  text-align: center;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.sectionQuatro .tamanho div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sectionQuatro .tamanho div h2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 50px;
+  font-weight: normal;
+}
+.sectionQuatro .tamanho div p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+}
+footer p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 4px 0;
+}
+footer img {
+  margin: 0 7px;
+  width: 24px;
+  height: 24px;
 }
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   font-size: 20px;
 }
 a:hover {
+  color: #000000;
   border-bottom: 1px solid black;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.862745098);
+}
+
+.centro {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 70px;
+}
+.centro p {
+  font-size: 20px;
 }
 
 * {
@@ -31,4 +171,4 @@ a:hover {
     src: url();
 } */
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/index/partials/_header.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;;;ACRZ;EACI;EACA,OCJc;EDKd;;AAEA;EACI;;;AERR;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22home.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/index/partials/_header.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/pages/index/partials/_imgFundo.scss%22,%22../../../scss/pages/index/partials/_sectionUm.scss%22,%22../../../scss/pages/index/partials/_sectionDoisESeis.scss%22,%22../../../scss/pages/index/partials/_sectionTres.scss%22,%22../../../scss/pages/index/partials/_sectionQuatro.scss%22,%22../../../scss/pages/index/partials/_footer.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAEA;EACI,kBCMS;EDLT;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAEA;EACI,OChBM;EDiBN;;;AEjBZ;EACI;EACA;;;ACAJ;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA,OFZW;;AEcX;EACI;EACA;;AAGJ;EACI;;;ACpBZ;EACI;EACA;EACA,kBHEiB;EGDjB;EACA;EACA;;AAGI;EACI,OHXW;;AGcf;EACI,OHfW;EGgBX;EACA;;;AChBZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI,OJVO;EIWP;EACA;;AAGJ;EACI,OJhBO;;;AKAnB;EACI;EACA;EACA,kBLCkB;EKAlB;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI,OLtBO;EKuBP;EACA;;AAGJ;EACI,OL5BO;EK6BP;;;AC5BhB;EACI,kBNEiB;EMDjB,ONFe;EMGf;EACA;EACA;EACA;;AAEA;EACI;EACA,ONTgB;EMUhB;;AAGJ;EACI;EACA;EACA;;;ACjBR;EACI;EACA,OPFe;EOGf;;AAEA;EACI,OPRU;EOSV;;;AAIR;EACI;EACA;EACA;EACA,kBPNQ;EOOR,OPhBe;;AOkBf;EACI;EACA,kBPVU;;;AOclB;EACQ;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AClCZ;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22home.css%22%7D */

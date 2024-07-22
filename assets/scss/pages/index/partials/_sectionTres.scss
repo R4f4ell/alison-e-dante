@@ -1,0 +1,22 @@
+@use "../../../../scss/global/variables";
+
+.sectionTres{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/images/pages/index/imgCelebrate.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .centro{
+        h2{
+            color: variables.$cor-branca-texto;
+            font-weight: normal;
+            font-size: 70px;
+        }
+
+        p{
+            color: variables.$cor-branca-texto;
+        }
+    }
+}
