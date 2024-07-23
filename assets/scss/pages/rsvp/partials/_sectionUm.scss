@@ -1,13 +1,14 @@
-@use "../../../../scss/global/variables";
+@use "../../../global/variables";
 
 .imgFundo{
-    background-image: url(/assets/images/pages/index/imgAlisonEDante.webp);
+    background-image: url(/assets/images/pages/rsvp/imgTravelStay.webp);
     background-size: cover;
+    
     .sectionUm{
-        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 70vh;
 
         .conteudo{
             width: 40%;

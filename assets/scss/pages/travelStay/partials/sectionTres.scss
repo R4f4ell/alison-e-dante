@@ -1,0 +1,36 @@
+@use "../../../../scss/global/variables";
+
+.sectionTres{
+    width: 100%;
+    height: 100vh;
+    background-color: variables.$corCinza-conteiner;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .tamanho{
+        text-align: center;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            
+            h2{
+                color: variables.$cor-pretoFraco-texto;
+                font-size: 50px;
+                font-weight: normal;
+            }
+    
+            p{
+                color: variables.$cor-pretoFraco-texto;
+                font-size: 16px;
+            }
+        }
+
+    }
+}

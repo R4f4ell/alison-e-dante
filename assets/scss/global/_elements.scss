@@ -35,3 +35,39 @@ button{
             font-size: 20px;
         }
 }
+
+header{
+    background-color: variables.$cor-header;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 80px;
+
+    a{
+        font-size: 16px;
+    }
+}
+
+footer{
+    background-color: variables.$corPreta-conteiner;
+    color: variables.$cor-branca-texto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+
+    p{
+        font-size: 18px;
+        color: variables.$cor-brancoFraco-texto;
+        margin: 4px 0;
+    }
+
+    img{
+        margin: 0 7px;
+        width: 24px;
+        height: 24px;
+    }
+}

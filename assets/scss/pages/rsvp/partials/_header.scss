@@ -1,13 +1,9 @@
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    height: 100px;
+@use "../../../global/variables";
 
+header{
     a{
         &:nth-child(3){
-            border-bottom: 1px solid black;
+            color: variables.$cor-preta-texto;
         }
     }
 }

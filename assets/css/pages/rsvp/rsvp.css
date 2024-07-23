@@ -1,12 +1,86 @@
-header {
+header a:nth-child(3) {
+  color: #000000;
+}
+
+.imgFundo {
+  background-image: url(/assets/images/pages/rsvp/imgTravelStay.webp);
+  background-size: cover;
+}
+.imgFundo .sectionUm {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  height: 100px;
+  height: 70vh;
 }
-header a:nth-child(3) {
-  border-bottom: 1px solid black;
+.imgFundo .sectionUm .conteudo {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+.imgFundo .sectionUm .conteudo h1 {
+  font-weight: 300;
+  font-size: 80px;
+}
+.imgFundo .sectionUm .conteudo p {
+  font-size: 20px;
+}
+
+.sectionDois {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 17px;
+}
+.sectionDois .formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.sectionDois .formulario div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.sectionDois .formulario div label {
+  align-self: start;
+}
+.sectionDois .formulario div input {
+  background-color: #F1F1F1;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  padding: 7px;
+  width: 100%;
+  height: 40px;
+}
+.sectionDois .formulario div input::placeholder {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.315);
+}
+.sectionDois .formulario div textarea {
+  background-color: #F1F1F1;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  width: 100%;
+  height: 100px;
+  resize: none;
+  padding: 7px;
+}
+.sectionDois .formulario div textarea::placeholder {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.315);
+}
+.sectionDois .formulario div p {
+  margin-bottom: 3rem;
 }
 
 a {
@@ -42,6 +116,39 @@ button:hover {
   font-size: 20px;
 }
 
+header {
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 80px;
+}
+header a {
+  font-size: 16px;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+}
+footer p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 4px 0;
+}
+footer img {
+  margin: 0 7px;
+  width: 24px;
+  height: 24px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -54,4 +161,4 @@ button:hover {
     src: url();
 } */
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/rsvp/partials/_header.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;EACA;;AAGI;EACI;;;ACPZ;EACI;EACA,OCFe;EDGf;;AAEA;EACI,OCRU;EDSV;;;AAIR;EACI;EACA;EACA;EACA,kBCNQ;EDOR,OChBe;;ADkBf;EACI;EACA,kBCVU;;;ADclB;EACQ;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AElCZ;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22rsvp.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/rsvp/partials/_header.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/pages/rsvp/partials/_sectionUm.scss%22,%22../../../scss/pages/rsvp/partials/_sectionDois.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAIQ;EACI,OCLM;;;ACElB;EACI;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA,ODhBO;;ACkBP;EACI;EACA;;AAGJ;EACI;;;ACxBhB;EACI;EACA;EACA;EACA;EACA,kBFDkB;EEElB,OFPmB;EEQnB;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAGJ;EACI,kBFhBL;EEiBK,OF9BO;EE+BP;EACA;EACA;EACA;;AACA;EACI;EACA;;AAGR;EACI,kBF5BL;EE6BK,OF1CO;EE2CP;EACA;EACA;EACA;EACA;;AACA;EACI;EACA;;AAGR;EACI;;;ACrDhB;EACI;EACA,OHFe;EGGf;;AAEA;EACI,OHRU;EGSV;;;AAIR;EACI;EACA;EACA;EACA,kBHNQ;EGOR,OHhBe;;AGkBf;EACI;EACA,kBHVU;;;AGclB;EACQ;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AAIZ;EACI,kBH9BS;EG+BT;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AAIR;EACI,kBHjDiB;EGkDjB,OHrDe;EGsDf;EACA;EACA;EACA;;AAEA;EACI;EACA,OH5DgB;EG6DhB;;AAGJ;EACI;EACA;EACA;;;ACtER;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22rsvp.css%22%7D */
