@@ -169,5 +169,86 @@ footer img {
     font-family: ;
     src: url();
 } */
+@media screen and (max-width: 450px) {
+  .imgFundo {
+    background-image: url(/assets/images/pages/index/imgAlisonEDanteResponsive.webp);
+    background-position: center center;
+  }
+  .imgFundo .sectionUm .conteudo {
+    width: 90%;
+    gap: 30px;
+  }
+  .imgFundo .sectionUm .conteudo h1 {
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .imgFundo .sectionUm .conteudo p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sectionDoisESeis {
+    height: 80vh;
+  }
+  .sectionDoisESeis .centro {
+    width: 90%;
+  }
+  .sectionDoisESeis .centro p {
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.555);
+  }
+  .sectionDoisESeis .centro h2 {
+    font-size: 25px;
+  }
+  .sectionDoisESeis .centro .div-button button {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sectionTres {
+    height: 90vh;
+    background-image: url(/assets/images/pages/index/imgCelebrateResponsive.webp);
+    background-size: cover;
+  }
+  .sectionTres .centro {
+    width: 90%;
+  }
+  .sectionTres .centro h2 {
+    font-size: 55px;
+  }
+  .sectionTres .centro p {
+    font-size: 25px;
+    font-weight: 800;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sectionQuatro {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .sectionQuatro .tamanho {
+    width: 90%;
+    gap: 30px;
+  }
+  .sectionQuatro .tamanho div p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  footer {
+    height: 100px;
+    justify-content: center;
+  }
+  footer p {
+    margin: 0;
+    display: none;
+  }
+  footer img {
+    width: 32px;
+    height: 32px;
+    margin: 0 15px;
+  }
+}
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/index/partials/_header.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/pages/index/partials/_sectionUm.scss%22,%22../../../scss/pages/index/partials/_sectionDoisESeis.scss%22,%22../../../scss/pages/index/partials/_sectionTres.scss%22,%22../../../scss/pages/index/partials/_sectionQuatro.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAIQ;EACI,OCLM;;;ACElB;EACI;EACA;;AACA;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA,ODfO;;ACiBP;EACI;EACA;;AAGJ;EACI;;;ACvBhB;EACI;EACA;EACA,kBFEiB;EEDjB;EACA;EACA;;AAGI;EACI,OFXW;;AEcf;EACI,OFfW;EEgBX;EACA;;;AChBZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI,OHVO;EGWP;EACA;;AAGJ;EACI,OHhBO;;;AIAnB;EACI;EACA;EACA,kBJCkB;EIAlB;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI,OJtBO;EIuBP;EACA;;AAGJ;EACI,OJ5BO;EI6BP;;;AC5BhB;EACI;EACA,OLFe;EKGf;;AAEA;EACI,OLRU;EKSV;;;AAIR;EACI;EACA;EACA;EACA,kBLNQ;EKOR,OLhBe;;AKkBf;EACI;EACA,kBLVU;;;AKclB;EACQ;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AAIZ;EACI,kBL9BS;EK+BT;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AAIR;EACI,kBLjDiB;EKkDjB,OLrDe;EKsDf;EACA;EACA;EACA;;AAEA;EACI;EACA,OL5DgB;EK6DhB;;AAGJ;EACI;EACA;EACA;;;ACtER;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22home.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/index/partials/_header.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/pages/index/partials/_sectionUm.scss%22,%22../../../scss/pages/index/partials/_sectionDoisESeis.scss%22,%22../../../scss/pages/index/partials/_sectionTres.scss%22,%22../../../scss/pages/index/partials/_sectionQuatro.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/responsive/indexResponsive/partials/_sectionUmResponsive.scss%22,%22../../../scss/pages/responsive/indexResponsive/partials/_sectionDoisESeisResponsive.scss%22,%22../../../scss/pages/responsive/indexResponsive/partials/_sectionTresResponsive.scss%22,%22../../../scss/pages/responsive/indexResponsive/partials/_sectionQuatroResponsive.scss%22,%22../../../scss/pages/responsive/indexResponsive/partials/_footerResponsive.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAIQ;EACI,OCLM;;;ACElB;EACI;EACA;;AACA;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA,ODfO;;ACiBP;EACI;EACA;;AAGJ;EACI;;;ACvBhB;EACI;EACA;EACA,kBFEiB;EEDjB;EACA;EACA;;AAGI;EACI,OFXW;;AEcf;EACI,OFfW;EEgBX;EACA;;;AChBZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI,OHVO;EGWP;EACA;;AAGJ;EACI,OHhBO;;;AIAnB;EACI;EACA;EACA,kBJCkB;EIAlB;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI,OJtBO;EIuBP;EACA;;AAGJ;EACI,OJ5BO;EI6BP;;;AC5BhB;EACI;EACA,OLFe;EKGf;;AAEA;EACI,OLRU;EKSV;;;AAIR;EACI;EACA;EACA;EACA,kBLNQ;EKOR,OLhBe;;AKkBf;EACI;EACA,kBLVU;;;AKclB;EACQ;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AAIZ;EACI,kBL9BS;EK+BT;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AAIR;EACI,kBLjDiB;EKkDjB,OLrDe;EKsDf;EACA;EACA;EACA;;AAEA;EACI;EACA,OL5DgB;EK6DhB;;AAGJ;EACI;EACA;EACA;;;ACtER;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA;ACGA;EACA;IACI;IACA;;EAGI;IACI;IACA;;EAEA;IACI;IACA;;EAGJ;IACI;;;ACjBhB;EACA;IACI;;EAEA;IACI;;EAEA;IACI;IACA;IACA;;EAGJ;IACI;;EAIA;IACI;;;ACnBhB;EACI;IACI;IACA;IACA;;EAEA;IACI;;EAEA;IACI;;EAGJ;IACI;IACA;;;ACfhB;EACI;IACI;IACA;;EAEA;IACI;IACA;;EAGI;IACI;;;ACXpB;EACI;IACI;IACA;;EAEA;IACI;IACA;;EAGJ;IACI;IACA;IACA%22,%22file%22:%22home.css%22%7D */

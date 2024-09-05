@@ -1,0 +1,19 @@
+@use '../../../../global/variables';
+
+@media screen and (max-width: 450px){
+    footer{
+        height: 100px;
+        justify-content: center;
+
+        p{
+            margin: 0;
+            display: none;
+        }
+
+        img{
+            width: 32px;
+            height: 32px;
+            margin: 0 15px;
+        }
+    }
+}

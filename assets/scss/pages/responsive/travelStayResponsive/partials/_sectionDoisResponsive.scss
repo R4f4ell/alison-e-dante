@@ -1,0 +1,27 @@
+@use "../../../../global/variables";
+
+@media screen and (max-width: 450px){
+    .sectionDois{
+        height: 80vh;
+
+        .centro{
+            width: 90%;
+
+            p{
+                font-size: 25px;
+                font-weight: 600;
+                text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.555);
+            }
+
+            h2{
+                font-size: 25px;
+            }
+
+            .div-button{
+                button{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}

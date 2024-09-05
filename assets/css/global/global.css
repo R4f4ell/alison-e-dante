@@ -1,79 +1,18 @@
-a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 20px;
-}
-a:hover {
-  color: #000000;
-  border-bottom: 1px solid black;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @use "../global/variables";
+ *   | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   assets\scss\global\_elements.scss 1:1  @use
+ *   assets\scss\global\global.scss 1:1     root stylesheet */
 
-button {
-  width: 150px;
-  height: 50px;
-  border-radius: 5px;
-  background-color: #000000;
-  color: #ffffff;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @use \"../global/variables\";\d\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   assets\\scss\\global\\_elements.scss 1:1  @use\a   assets\\scss\\global\\global.scss 1:1     root stylesheet";
 }
-button:hover {
-  cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.862745098);
-}
-
-.centro {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 70px;
-}
-.centro p {
-  font-size: 20px;
-}
-
-header {
-  background-color: #000000;
-  position: sticky;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  height: 80px;
-}
-header a {
-  font-size: 16px;
-}
-
-footer {
-  background-color: #000000;
-  color: #ffffff;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 300px;
-}
-footer p {
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.8);
-  margin: 4px 0;
-}
-footer img {
-  margin: 0 7px;
-  width: 24px;
-  height: 24px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  border: none;
-  box-sizing: border-box;
-}
-
-/* @font-face {
-    font-family: ;
-    src: url();
-} */
-
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../scss/global/_elements.scss%22,%22../../scss/global/_variables.scss%22,%22../../scss/global/_normalize.scss%22,%22../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAEA;EACI;EACA,OCFe;EDGf;;AAEA;EACI,OCRU;EDSV;;;AAIR;EACI;EACA;EACA;EACA,kBCNQ;EDOR,OChBe;;ADkBf;EACI;EACA,kBCVU;;;ADclB;EACQ;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AAIZ;EACI,kBC9BS;ED+BT;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AAIR;EACI,kBCjDiB;EDkDjB,OCrDe;EDsDf;EACA;EACA;EACA;;AAEA;EACI;EACA,OC5DgB;ED6DhB;;AAGJ;EACI;EACA;EACA;;;AEtER;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22global.css%22%7D */

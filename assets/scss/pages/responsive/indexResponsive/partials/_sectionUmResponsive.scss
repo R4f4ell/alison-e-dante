@@ -1,0 +1,25 @@
+@use '../../../../global/variables';
+
+
+@media screen and (max-width: 450px) {
+.imgFundo{
+    background-image: url(/assets/images/pages/index/imgAlisonEDanteResponsive.webp);
+    background-position: center center;
+
+    .sectionUm{
+        .conteudo{
+            width: 90%;
+            gap: 30px;
+
+            h1{
+                font-size: 45px;
+                font-weight: 600;
+            }
+
+            p{
+                font-size: 25px;
+            }
+        }
+    }
+}
+}

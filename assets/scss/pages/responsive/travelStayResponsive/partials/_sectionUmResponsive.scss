@@ -1,0 +1,18 @@
+@use '../../../../global/variables';
+
+@media screen and (max-width: 450px){
+    .imgFundo{
+        background-image: url(/assets/images/pages/travelStay/imgTravelStayResponsive.webp);
+
+        .sectionUm{
+            .conteudo{
+                width: 90%;
+
+                h1{
+                    font-weight: 600;
+                    font-size: 50px;
+                }
+            }
+        }        
+    }
+}

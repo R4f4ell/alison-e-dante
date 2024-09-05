@@ -1,0 +1,23 @@
+@use'../../../../global/variables';
+
+@media screen and (max-width:450px){
+    .sectionTres{
+        height: 90vh;
+        background-image: url(/assets/images/pages/index/imgCelebrateResponsive.webp);
+        background-size: cover;
+
+        .centro{
+            width: 90%;
+
+            h2{
+                font-size: 55px;
+            }
+    
+            p{
+                font-size: 25px;
+                font-weight: 800;
+            }
+        }
+    }
+}    
+

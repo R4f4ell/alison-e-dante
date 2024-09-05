@@ -1,31 +1,17 @@
-.sectionTres {
-  width: 100%;
-  height: 100vh;
-  background-color: #C6CAD6;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.sectionTres .tamanho {
-  text-align: center;
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-}
-.sectionTres .tamanho div {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-.sectionTres .tamanho div h2 {
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 50px;
-  font-weight: normal;
-}
-.sectionTres .tamanho div p {
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 16px;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @use "../../../../scss/global/variables";
+ *   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   assets\scss\pages\travelStay\partials\sectionTres.scss 1:1  root stylesheet */
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../../scss/pages/travelStay/partials/sectionTres.scss%22,%22../../../../scss/global/_variables.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAEA;EACI;EACA;EACA,kBCEiB;EDDjB;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI,OCtBO;EDuBP;EACA;;AAGJ;EACI,OC5BO;ED6BP%22,%22file%22:%22sectionTres.css%22%7D */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @use \"../../../../scss/global/variables\";\d\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   assets\\scss\\pages\\travelStay\\partials\\sectionTres.scss 1:1  root stylesheet";
+}
