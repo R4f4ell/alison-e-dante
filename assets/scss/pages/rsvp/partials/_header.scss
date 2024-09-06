@@ -1,0 +1,9 @@
+@use "../../../global/variables";
+
+header{
+    a{
+        &:nth-child(3){
+            color: variables.$cor-preta-texto;
+        }
+    }
+}

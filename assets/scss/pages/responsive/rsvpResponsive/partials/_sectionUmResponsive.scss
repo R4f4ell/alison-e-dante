@@ -1,0 +1,14 @@
+@use '../../../../global/variables';
+
+@media screen and (max-width: 450px){
+    .imgFundo{
+        background-image: url(/assets/images/pages/rsvp/imgTravelStayResponsive.webp);
+
+
+        .sectionUm{
+            .conteudo{
+                width: 90%;
+            }
+        }
+    }
+}
