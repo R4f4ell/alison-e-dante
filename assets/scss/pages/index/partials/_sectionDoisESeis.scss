@@ -1,20 +1,14 @@
-@use "../../../../scss/global/variables";
+@use '../../../global/variables';
 
 .sectionDoisESeis{
-    width: 100%;
     height: 100vh;
-    background-color: variables.$corCinza-conteiner;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: variables.$corFundoContainer;
 
     .centro{
-        p{
-            color: variables.$cor-pretoFraco-texto;
-        }
-
         h2{
-            color: variables.$cor-pretoFraco-texto;
             font-weight: 300;
             font-size: 50px;
         }

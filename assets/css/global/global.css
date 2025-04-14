@@ -1,18 +1,147 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @use "../global/variables";
- *   | ^^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   assets\scss\global\_elements.scss 1:1  @use
- *   assets\scss\global\global.scss 1:1     root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @use \"../global/variables\";\d\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   assets\\scss\\global\\_elements.scss 1:1  @use\a   assets\\scss\\global\\global.scss 1:1     root stylesheet";
+button {
+  background-color: #1C1C1C;
+  color: #FFFFFF;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
+button:hover {
+  background-color: #3C444C;
+  color: #E6EAEE;
+  transform: scale(1.04);
+}
+button:active {
+  transform: scale(0.98);
+}
+
+.centro {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 70px;
+}
+.centro p {
+  font-size: 20px;
+}
+
+header {
+  position: fixed;
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+  background-color: rgba(37, 30, 30, 0.048);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  z-index: 100;
+}
+header .logo {
+  font-weight: bold;
+  font-size: 30px;
+}
+header nav {
+  display: flex;
+  gap: 30px;
+}
+header nav a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+header nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition: width 0.4s ease-in-out;
+}
+header nav a:hover::after {
+  width: 100%;
+}
+header nav.active {
+  display: flex;
+}
+header .menu {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+  z-index: 101;
+}
+header .menu span {
+  width: 22px;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+header .menu.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+header .menu.active span:nth-child(2) {
+  opacity: 0;
+}
+header .menu.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+@media (max-width: 768px) {
+  header nav {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(17, 15, 15, 0.856);
+    backdrop-filter: blur(10px);
+    display: none;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  header nav.active {
+    display: flex;
+  }
+  header .menu {
+    display: flex;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #1C1C1C;
+}
+footer img {
+  margin: 0 7px;
+  width: 28px;
+  height: 28px;
+}
+footer img:hover {
+  transform: scale(1.06);
+  transition: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../scss/global/_elements.scss%22,%22../../scss/global/_variables.scss%22,%22../../scss/global/_normalize.scss%22,%22../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAEA;EACE,kBCKe;EDJf,OCMe;EDLf;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE,kBCLkB;EDMlB,OCJkB;EDKlB;;AAGF;EACE;;;AAIJ;EACQ;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AAKZ;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA,kBC3Ce;ED4Cf;EACA;EACA;EACA;;AAEA;EACE;EACA;;AAGF;EACE;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAIA;EACE;;AAKN;EACE;;AAIJ;EACE;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;;AAIA;EACE;;AAGF;EACE;;AAGF;EACE;;AAKN;EACE;IACE;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EAGF;IACE;;EAGF;IACE;;;;AAKN;EACI;EACA;EACA,kBC9Ia;;ADgJb;EACI;EACA;EACA;;AAEA;EACI;EACA;;;AE3JZ;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22global.css%22%7D */
