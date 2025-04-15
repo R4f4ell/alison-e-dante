@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 450px){
     footer{
-        height: 100px;
+        height: 80px;
         justify-content: center;
 
         p{
@@ -13,6 +13,16 @@
         img{
             width: 32px;
             height: 32px;
+            margin: 0 15px;
+        }
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 900px){
+    footer{
+        img{
+            width: 36px;
+            height: 36px;
             margin: 0 15px;
         }
     }

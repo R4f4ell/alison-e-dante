@@ -8,6 +8,8 @@
 
     .sectionUm{
         .conteudo{
+            background-color: rgba(0, 0, 0, 0.295);
+            border-radius: 15px;
             width: 90%;
             gap: 30px;
 
@@ -15,11 +17,31 @@
                 font-size: 45px;
                 font-weight: 600;
             }
-
-            p{
-                font-size: 25px;
-            }
         }
     }
 }
+}
+
+@media screen and (min-width:451px) and (max-width: 900px){
+    .imgFundo{
+        background-image: url(/assets/images/pages/index/imgAlisonEDanteResponsive.webp);
+        background-position: center center;
+
+        .sectionUm{
+            .conteudo{
+                background-color: rgba(0, 0, 0, 0.295);
+                border-radius: 15px;
+                width: 90%;
+
+                h1{
+                    font-size: 70px;
+                    font-weight: 600;
+                }
+
+                p{
+                    font-size: 28px;
+                }
+            }
+        }
+    }
 }

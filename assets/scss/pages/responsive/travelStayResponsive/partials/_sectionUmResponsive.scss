@@ -1,16 +1,22 @@
 @use '../../../../global/variables';
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 900px){
     .imgFundo{
         background-image: url(/assets/images/pages/travelStay/imgTravelStayResponsive.webp);
 
         .sectionUm{
             .conteudo{
+                background-color: rgba(0, 0, 0, 0.295);
+                border-radius: 15px;
                 width: 90%;
 
                 h1{
+                    font-size: 45px;
                     font-weight: 600;
-                    font-size: 50px;
+                }
+
+                p{
+                    font-size: 23px;
                 }
             }
         }        

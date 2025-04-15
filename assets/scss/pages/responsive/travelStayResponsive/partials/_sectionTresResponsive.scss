@@ -1,17 +1,18 @@
 @use "../../../../global/variables";
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 900px){
     .sectionTres{
         flex-direction: column;
-        gap: 40px;
+        justify-content: center;
+        gap: 60px;
 
         .tamanho{
-            width: 90%;
+            width: 80%;
             gap: 30px;
 
             div{
                 p{
-                    font-size: 18px;
+                    font-size: 22px;
                 }
             }
         }

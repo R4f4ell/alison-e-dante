@@ -2,12 +2,36 @@
 
 @media screen and (max-width:450px){
     .sectionTres{
-        height: 90vh;
+        background-image: url(/assets/images/pages/index/imgCelebrateResponsive.webp);
+        background-size: cover;
+        background-position: center center;
+
+        .centro{
+            background-color: rgba(0, 0, 0, 0.295);
+                border-radius: 15px;
+            width: 90%;
+
+            h2{
+                font-size: 45px;
+            }
+    
+            p{
+                font-size: 25px;
+                font-weight: 800;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:900px){
+    .sectionTres{
         background-image: url(/assets/images/pages/index/imgCelebrateResponsive.webp);
         background-size: cover;
 
         .centro{
-            width: 90%;
+            background-color: rgba(0, 0, 0, 0.295);
+                border-radius: 15px;
+            width: 70%;
 
             h2{
                 font-size: 55px;
